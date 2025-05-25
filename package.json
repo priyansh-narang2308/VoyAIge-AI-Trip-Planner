@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
   "dependencies": {
     "@clerk/clerk-react": "^5.31.6",
     "@google/genai": "^1.0.1",
